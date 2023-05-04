@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/HomeScreen">
+
+    <fragment
+        android:id="@+id/HomeScreen"
+        android:name="com.example.final_mobileresume.HomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_homePage_to_aboutMe"
+            app:destination="@id/AboutMe" />
+        <action
+            android:id="@+id/action_HomeScreen_to_projectDevelopment"
+            app:destination="@id/projectDevelopment" />
+        <action
+            android:id="@+id/action_HomeScreen_to_contactForm"
+            app:destination="@id/contactForm" />
+        <action
+            android:id="@+id/action_HomeScreen_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/AboutMe"
+        android:name="com.example.final_mobileresume.AboutMe"
+        android:label="fragment_about_me"
+        tools:layout="@layout/fragment_about_me" />
+    <fragment
+        android:id="@+id/projectDevelopment"
+        android:name="com.example.final_mobileresume.ProjectDevelopment"
+        android:label="fragment_project_development"
+        tools:layout="@layout/fragment_project_development" />
+    <fragment
+        android:id="@+id/contactForm"
+        android:name="com.example.final_mobileresume.ContactForm"
+        android:label="fragment_contact_form"
+        tools:layout="@layout/fragment_contact_form" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.final_mobileresume.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Mobile Resume</string>
+
+    <string name="About_Me">About Me</string>
+    <string name="Project_Developments">Project Developments</string>
+    <string name="Contact_Form">Contact Form</string>
+    <string name="App_Options">App Options</string>
+
+
+//not functioning selecting list with fragment, due to find.ById function not working properly
+    //same goes for linking Linkedin as it seems...
+
+    <string name="find_project"> Look at Project</string> //find beers
+    <string name="projects"> No Project Selected</string>  //brands
+
+    <string-array name="Project_Developments"> //beers_colors
+        <item>MineSweeper</item>
+        <item>Club Access Website</item>
+        <item>Mobile App</item>
+    </string-array>
+
+    <string name="Contact">Contact Form</string>
+
+
+    <string name="close">close</string>
+    <string name="open">open</string>
+
+
+    <string name="Project_1">MineSweep: Utilizing Java, a Spoof Version of a Fully Functioning MineSweep Game</string>
+    <string name="Project_2">Club Access: Utilizing HTML,CSS,PHP, a extra-curricular school club website to promote information</string>
+    <string name="Project_3">Mobile Resume: Utilizing Kotlin, developing and experimenting with Android Studio, to create THIS! </string>
+
+    <string name="About_Me_1">Bachelor\'s in Computer Science With a Concentration in Computing</string>
+    <string name="About_Me_2">Minoring in Data Analyst/ Spanish</string>
+    <string name="About_Me_3">Spanish Speaker </string>
+    <string name="About_Me_4">Act Six/ Page Grant Scholar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
